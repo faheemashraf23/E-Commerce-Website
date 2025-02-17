@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    margin: 10px; /* Set margin for the body */
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h5 {
+    color: #007bff;
+}
+
+h1.heading {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2.5rem;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff; /* White background for the navbar */
+    padding: 10px 15px; /* Padding for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-brand img {
+    max-height: 50px; /* Ensure logo fits well */
+}
+
+.navbar-toggler {
+    border: none; /* Remove border from the toggler */
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff; /* Change color of the toggler icon */
+}
+
+.nav-link {
+    color: #007bff; /* Primary color for links */
+    font-weight: 500; /* Slightly bolder text */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Form Control Styles */
+.form-control {
+    border: 1px solid #ced4da; /* Light border for the search input */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 100px; /* Padding for the input */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+}
+
+/* Product Card Styles */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+/* Contact Form Styles */
+.contact {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type=submit]:hover {
+    background-color: #0056b3;
+}
+
+/* Map Styles */
+.map {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center; /* Center align nav items on smaller screens */
+    }
+
+    .card {
+        margin-bottom: 20px; /* Add margin to cards on smaller screens */
+    }
+}
